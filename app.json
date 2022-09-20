@@ -1,14 +1,14 @@
 {
-      "name": "Tagger bot",
-      "description": "Yarasa tagger",
+      "name": "Naz_Tagger_bot",
+      "description": "Naz_Tagger_bot",
       "keywords": [
          "telegram",
          "tagger",
          "group",
-         "xtq_bakavoy",
-         "Yupiterblogg"
+         "BenimKiller",
+         "lovelesslifee"
       ],   
-   "repository": "https://github.com/XTQ067/Mentionall-Azerbercan-",
+   "repository": "https://github.com/Raviveyis/Mentionall-Azerbercan-",
    "env": {
       "TOKEN": {
          "description": "Botunuzun tokenini bura yazın",
