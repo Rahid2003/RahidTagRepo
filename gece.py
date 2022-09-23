@@ -45,9 +45,9 @@ async def start(event):
                       [
                        Button.inline("🎛 əmrlər", data="komutlar")
                       ],
-                      [Button.url('🌱 Məni qrupa əlavə et', f'https://t.me/Naz_Tagger_bot?startgroup=a')],
-                      [Button.url('📣 Support', f'https://t.me/lovelesslifee'),
-                       Button.url('👨‍💻 Sahib', f'https://t.me/Naz_Vanessa')]
+                      [Button.url('🌱 Məni qrupa əlavə et', f'https://t.me/Sofi_Tag_Bot?startgroup=a')],
+                      [Button.url('🤖 Digər Botlar', f'https://t.me/Rahid_44'),
+                       Button.url('🙇🏻‍♀️ Sahibə', f'https://t.me/Avaraqizdidaa')]
                     ),
                     link_preview=False)
 
@@ -64,9 +64,9 @@ async def handler(event):
                       [
                        Button.inline("🎛 əmrlər", data="komutlar")
                       ],
-                      [Button.url('🌱 Məni qrupa əlavə et', f'https://t.me/Naz_Tagger_bot?startgroup=a')],
-                      [Button.url('📣 Support', f'https://t.me/lovelesslifee'),
-                       Button.url('👨‍💻 Sahib', f'https://t.me/Naz_Vanessa')]
+                      [Button.url('🌱 Məni qrupa əlavə et', f'https://t.me/Sofi_Tag_Bot?startgroup=a')],
+                      [Button.url('🤖 Digər Botlar', f'https://t.me/Rahid_44'),
+                       Button.url('🙇🏻‍♀️ Sahibə', f'https://t.me/Avaraqizdidaa')]
                     ),
                     link_preview=False)
 
@@ -100,17 +100,17 @@ async def mentionall(event):
     mode = "text_on_reply"
     msg = event.reply_to_msg_id
     if msg == None:
-        return await event.respond("__Köhnə mesajlar üçün üyeleri tag edə bilmərəm! (gruba eklemeden önce gönderilen mesajlar)__")
+        return await event.respond("__Köhnə mesajlar üçün üyeleri tağ edə bilmərəm! (qrupa əlavə edilməzdən əvvəl göndərilən mesajlar)__")
   elif event.pattern_match.group(1) and event.reply_to_msg_id:
-    return await event.respond("__Tağ mesajı yazmadın!__")
+    return await event.respond("__Tağ mesajı yazmadın🙄__")
   else:
-    return await event.respond("__Bir mesajı yanıtlayın vəya başqalarını tag etmək üçün mənə bir mətin verin!__")
+    return await event.respond("__Bir mesajı yanıtlayın vəya başqalarını tağ etmək üçün mənə bir mətn verin!__")
     
   if mode == "text_on_cmd":
-    await client.send_message(event.chat_id, "❄️ User tağ eləmə başladı\n⏱️ İnterval - 2 saniye",
+    await client.send_message(event.chat_id, "❄️ User tağ prosesi başladı\n⏱️ İnterval - 2 saniyə",
                     buttons=(
                       [
-                      Button.url('📣 Support', f'https://t.me/lovelesslifee')
+                      Button.url('🤖 Digər Botlar', f'https://t.me/Rahid_44')
                       ]
                     )
                   ) 
@@ -121,10 +121,10 @@ async def mentionall(event):
       usrnum += 1
       usrtxt += f" [{usr.first_name}](tg://user?id={usr.id}) "
       if event.chat_id not in gece_tag:
-        await event.respond("⛔ Tağ işləmi durduruldu",
+        await event.respond("⛔ Tağ prosesi dayandırıldı",
                     buttons=(
                       [
-                       Button.url('📣 Support', f'https://t.me/lovelesslifee')
+                       Button.url('🤖 Digər Botlar', f'https://t.me/Rahid_44')
                       ]
                     )
                   )
@@ -161,15 +161,15 @@ async def mentionalladmin(event):
     if msg == None:
         return await event.respond("__Köhnə mesajları görə bilmirəm! (bu mesaj məni qrupa əlavə etməmişdən qabaq yazılıb)__")
   elif event.pattern_match.group(1) and event.reply_to_msg_id:
-    return await event.respond("__Tağ mesajı yazmadın!__")
+    return await event.respond("__Tağ mesajı yazmadın🙄__")
   else:
-    return await event.respond("__Tağ etməy üçün bir mesaj yanıtlayın və ya bir mətn yazın!__")
+    return await event.respond("__Tağ etmək üçün bir mesaj yanıtlayın və ya bir mətn yazın!__")
     
   if mode == "text_on_cmd":
-    await client.send_message(event.chat_id, "❄️ Admin tağ eləmək başladı\n⏱️ İnterval - 2 saniye",
+    await client.send_message(event.chat_id, "❄️ Admin tağ prosesi başladı\n⏱️ İnterval - 2 saniyə",
                     buttons=(
                       [
-                       Button.url('📣 Support', f'https://t.me/lovelesslifee')
+                       Button.url('🤖 Digər Botlar', f'https://t.me/Rahid_44')
                       ]
                     )
                   ) 
@@ -180,10 +180,10 @@ async def mentionalladmin(event):
       usrnum += 1
       usrtxt += f"[{usr.first_name}](tg://user?id={usr.id}) "
       if event.chat_id not in gece_tag:
-        await event.respond("⛔ Admin tağ eləmək durduruldu",
+        await event.respond("⛔ Admin tağ prosesi dayandırıldı",
                     buttons=(
                       [
-                       Button.url('📣 Support', f'https://t.me/lovelesslifee')
+                       Button.url('🤖 Digər Botlar', f'https://t.me/Rahid_44')
                       ]
                     )
                   )
@@ -220,15 +220,15 @@ async def tektag(event):
     if msg == None:
         return await event.respond("__Köhnə mesajları görə bilmirəm! (bu mesaj məni qrupa əlavə etməmişdən qabaq yazılıb)__")
   elif event.pattern_match.group(1) and event.reply_to_msg_id:
-    return await event.respond("__Tağ mesajı yazmadın!__")
+    return await event.respond("__Tağ mesajı yazmadın🙄__")
   else:
-    return await event.respond("__Tağ etməy üçün bir mesaj yanıtlayın və ya bir mətn yazın!__")
+    return await event.respond("__Tağ etmək üçün bir mesaj yanıtlayın və ya bir mətn yazın!__")
     
   if mode == "text_on_cmd":
-    await client.send_message(event.chat_id, "❄️ Tək-Tək Tağ Başladı\n⏱️ İnterval - 2 saniye",
+    await client.send_message(event.chat_id, "❄️ Tək-Tək tağ prosesi başladı\n⏱️ İnterval - 2 saniyə",
                     buttons=(
                       [
-                       Button.url('📣 Support', f'https://t.me/lovelesslifee')
+                       Button.url('🤖 Digər Botlar', f'https://t.me/Rahid_44')
                       ]
                     )
                   ) 
@@ -239,10 +239,10 @@ async def tektag(event):
       usrnum += 1
       usrtxt += f"[{usr.first_name}](tg://user?id={usr.id}) "
       if event.chat_id not in gece_tag:
-        await event.respond("⛔ Tək Tək Tağ Prosesi Dayandırıldı",
+        await event.respond("⛔ Tək-Tək tağ prosesi dayandırıldı",
                     buttons=(
                       [
-                       Button.url('📣 Support', f'https://t.me/lovelesslifee')
+                       Button.url('🤖 Digər Botlar', f'https://t.me/Rahid_44')
                       ]
                     )
                   )
@@ -292,15 +292,15 @@ async def etag(event):
     if msg == None:
         return await event.respond("__Köhnə mesajları görə bilmirəm! (bu mesaj məni qrupa əlavə etməmişdən qabaq yazılıb)__")
   elif event.pattern_match.group(1) and event.reply_to_msg_id:
-    return await event.respond("__Tağ mesajı yazmadın!__")
+    return await event.respond("__Tağ mesajı yazmadın🙄__")
   else:
-    return await event.respond("__Tağ etməy üçün bir mesaj yanıtlayın və ya bir mətn yazın!__")
+    return await event.respond("__Tağ etmək üçün bir mesaj yanıtlayın və ya bir mətn yazın!__")
     
   if mode == "text_on_cmd":
-    await client.send_message(event.chat_id, "❄️ Emoji tağ başlandı\n⏱️ İnterval - 2 saniye",
+    await client.send_message(event.chat_id, "❄️ Emoji ilə tağ prosesi başladı\n⏱️ İnterval - 2 saniyə",
                     buttons=(
                       [
-                       Button.url('📣 Support', f'https://t.me/lovelesslifee')
+                       Button.url('🤖 Digər Botlar', f'https://t.me/Rahid_44')
                       ]
                     )
                   ) 
@@ -311,10 +311,10 @@ async def etag(event):
       usrnum += 1
       usrtxt += f"[{random.choice(emoji)}](tg://user?id={usr.id}) "
       if event.chat_id not in gece_tag:
-        await event.respond("⛔ Emoji tağ durduruldu",
+        await event.respond("⛔ Emoji tağ prosesi dayandırıldı",
                     buttons=(
                       [
-                       Button.url('📣 Support', f'https://t.me/lovelesslifee')
+                       Button.url('🤖 Digər Botlar', f'https://t.me/Rahid_44')
                       ]
                     )
                   )
@@ -380,17 +380,17 @@ async def stag(event):
     mode = "text_on_reply"
     msg = event.reply_to_msg_id
     if msg == None:
-        return await event.respond("__Eski mesajları göremiyorum! (bu mesaj beni gruba eklemeden önce yazılmış)__")
+        return await event.respond("__Köhnə mesajları görə bilmirəm! (bu mesaj məni qrupa əlavə etməmişdən qabaq yazılıb)__")
   elif event.pattern_match.group(1) and event.reply_to_msg_id:
-    return await event.respond("__Etiketleme mesajı yazmadın!__")
+    return await event.respond("_Tağ mesajı yazmadın🙄__")
   else:
-    return await event.respond("__Etiketleme için bir mesajı yanıtlayın veya bir mesaj yazın!__")
+    return await event.respond("__Tağ etmək üçün bir mesaj yanıtlayın və ya bir mətn yazın!__")
     
   if mode == "text_on_cmd":
-    await client.send_message(event.chat_id, "❄️ Söz ile etiketleme başladı\n⏱️ İnterval - 2 saniye",
+    await client.send_message(event.chat_id, "❄️ Sözlərlə tağ prosesi başladı\n⏱️ İnterval - 2 saniyə",
                     buttons=(
                       [
-                       Button.url('📣 Support', f'https://t.me/lovelesslifee')
+                       Button.url('🤖 Digər Botlar', f'https://t.me/Rahid_44')
                       ]
                     )
                   ) 
@@ -401,10 +401,10 @@ async def stag(event):
       usrnum += 1
       usrtxt += f"[{random.choice(soz)}](tg://user?id={usr.id}) "
       if event.chat_id not in yarasatagger:
-        await event.respond("⛔ Söz ile etiketleme işlemi durduruldu",
+        await event.respond("⛔ Söz ilə tağ prosesi dayandırıldı",
                     buttons=(
                       [
-                       Button.url('📣 Support', f'https://t.me/lovelesslifee')
+                       Button.url('🤖 Digər Botlar', f'https://t.me/Rahid_44')
                       ]
                     )
                   )
@@ -442,15 +442,15 @@ async def rtag(event):
     if msg == None:
         return await event.respond("__Köhnə mesajları görə bilmirəm! (bu mesaj məni qrupa əlavə etməmişdən qabaq yazılıb)__")
   elif event.pattern_match.group(1) and event.reply_to_msg_id:
-    return await event.respond("__Tağ mesajı yazmadın!__")
+    return await event.respond("__Tağ mesajı yazmadın🙄__")
   else:
-    return await event.respond("__Tağ etməy üçün bir mesaj yanıtlayın və ya bir mətn yazın!__")
+    return await event.respond("__Tağ etmək üçün bir mesaj yanıtlayın və ya bir mətn yazın!__")
     
   if mode == "text_on_cmd":
-    await client.send_message(event.chat_id, "❄️ Rəng ilə tağ başladı\n⏱️ İnterval - 2 saniye",
+    await client.send_message(event.chat_id, "❄️ Rəng ilə tağ prosesi başladı\n⏱️ İnterval - 2 saniyə",
                     buttons=(
                       [
-                       Button.url('📣 Support', f'https://t.me/lovelesslifee')
+                       Button.url('🤖 Digər Botlar', f'https://t.me/lovelesslifee')
                       ]
                     )
                   ) 
@@ -461,10 +461,10 @@ async def rtag(event):
       usrnum += 1
       usrtxt += f"[{random.choice(renk)}](tg://user?id={usr.id}) "
       if event.chat_id not in yarasatagger:
-        await event.respond("⛔ Rəng tağ durduruldu",
+        await event.respond("⛔ Rəngli tağ prosesi dayandırıldı",
                     buttons=(
                       [
-                       Button.url('📣 Support', f'https://t.me/lovelesslifee')
+                       Button.url('🤖 Digər Botlar', f'https://t.me/Rahid_44')
                       ]
                     )
                   )
@@ -482,6 +482,6 @@ async def rtag(event):
 
 
 
-print(">> Bot çalışmaktadur merak etme 🚀 @BenimKiller bilgi alabilirsin <<")
+print(">> Bot işlək vəziyyətdədir 🚀 əlaqə üçün @Rahid_2003 <<")
 client.run_until_disconnected()
 run_until_disconnected()
