@@ -43,7 +43,7 @@ async def start(event):
      await client.send_message(log_qrup, f"ℹ️ **Yeni Kullanıcı -** {ad}")
      return await event.reply(f"{ad} {startmesaj}", buttons=(
                       [
-                       Button.inline("🎛 əmrlər", data="komutlar")
+                       Button.inline("🎛 Əmrlər", data="komutlar")
                       ],
                       [Button.url('🌱 Məni qrupa əlavə et', f'https://t.me/Sofi_Tag_Bot?startgroup=a')],
                       [Button.url('🤖 Digər Botlar', f'https://t.me/Rahid_44'),
