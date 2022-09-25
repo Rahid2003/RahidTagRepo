@@ -62,7 +62,7 @@ async def handler(event):
      ad = f"[{usr.first_name}](tg://user?id={usr.id}) "
      await event.edit(f"{ad} {startmesaj}", buttons=(
                       [
-                       Button.inline("🎛 əmrlər", data="komutlar")
+                       Button.inline("🎛 Əmrlər", data="komutlar")
                       ],
                       [Button.url('🌱 Məni qrupa əlavə et', f'https://t.me/Sofi_Tag_Bot?startgroup=a')],
                       [Button.url('🤖 Digər Botlar', f'https://t.me/Rahid_44'),
