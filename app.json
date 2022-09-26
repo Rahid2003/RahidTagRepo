@@ -1,17 +1,17 @@
 {
-      "name": "Naz_Tagger_bot",
-      "description": "Naz_Tagger_bot",
+      "name": "Sofi_Tag_Bot",
+      "description": "Sofi_Tag_Bot",
       "keywords": [
          "telegram",
          "tagger",
          "group",
-         "BenimKiller",
-         "lovelesslifee"
+         "Rahid_44",
+         "Rahid_Support"
       ],   
-   "repository": "https://github.com/Raviveyis/Mentionall-Azerbercan-",
+   "repository": "https://github.com/Rahid2003/RahidTagRepo-",
    "env": {
       "TOKEN": {
-         "description": "Botunuzun tokenini bura yazın",
+         "description": "Botunuzun tokeni bura yazın",
          "value": ""
       },
       "APP_ID": {
@@ -23,32 +23,32 @@
          "value": ""
       },    
       "LOG_QRUP": {
-         "description": "log grubun id",
+         "description": "log qrupun ID-si yazın",
          "value": ""
       },
       "USERNAME": {
-         "description": "Botun kullanıcı adı yazınız @ işarəsi olmadan",
+         "description": "Botun istifadəçi adı yazın @ işarəsi olmadan",
          "value": ""
       },
       "sahib": {
-         "description": "Kendi kullanıcı adınızı yazınız @ işarəsi olmadan",
+         "description": "Öz istifadəçi adınızı yazın @ işarəsi olmadan",
          "value": ""
       },      
       "support": {
-         "description": "Bura support grubunuz yada kanalınızın kullanıcı adı @ işarəsi olmadan yazın",
+         "description": "Bura support qrupunuz yada kanalınızın istifadəçi adı @ işarəsi olmadan yazın",
          "value": ""
       },
       "startmesaj": {
-         "description": "Bota start verilince mesajınız",
-         "value": "**Salam** __Çox funksiyalı tağ botu\n❗Qrupda Admin Etmək Vacibdir ★__"
+         "description": "Bota start verdikdə mesajınız",
+         "value": "**Salam👋** __Qruplar üçün çox funksiyalı tağ botudur\n❗Qrupda admin etmək vacibdir ★__"
       },
       "qrupstart": {
-         "description": "Grupta start verildiği zaman mesajınız",
+         "description": "Qrupda start verdikdə mesajınız",
          "value": "✅ **Mən Aktivəm !** 🕊️ **Əmrləri görmək üçün pm-ə baxa bilərsiniz.**"
       },
       "komutlar": {
-         "description": "Yardım menüsü",
-         "value": "Kömək Menyusuna Xoş gəldin 🗽\n/all <səbəb> - Hər kəsi mesajda 5 tağ olmaqla tağ edər\n/admin <səbəb> - Adminləri mesajda 1 tağ olmaqla tağ edər\n/tektag <səbəb> - Hər kəsi mesajda 1 tağ olmaqla tağ edər\n/etag  <səbəb> - Hər kəsi mesajda 5 emoji olmaqla emojilərlə tağ edər\n/rtag  <səbəb> - İstifadəçiləri rənglərlə etiketləyirəm\n/cancel - Tağ Prosesini Sonlandırar\n❕ Bu əmrlərdən yalnız idarəçilər istifadə edə bilər. ✨"
+         "description": "Kömək Menyusu",
+         "value": "🆘 Kömək Menyusu\n/all <səbəb> - Hərkəsi mesajda 5 tağ olmaqla tağ edər\n/admin <səbəb> - Adminləri mesajda 1 tağ olmaqla tağ edər\n/tektag <səbəb> - Hərkəsi mesajda 1 tağ olmaqla tağ edər\n/etag <səbəb> - Hərkəsi mesajda 5 emoji olmaqla emojilərlə tağ edər\n/rtag <səbəb> - İstifadəçiləri rənglərlə tağ edər\n/cancel - Tağ prosesini dayandırar\n❕ Bu əmrləri yalnız qrup adminləri istifadə edə bilər."
       }
 
       
