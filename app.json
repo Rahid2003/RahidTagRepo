@@ -48,7 +48,7 @@
       },
       "komutlar": {
          "description": "Kömək Menyusu",
-         "value": "🆘 Kömək Menyusu\n/all <səbəb> - Hərkəsi mesajda 5 tağ olmaqla tağ edər\n/admin <səbəb> - Adminləri mesajda 1 tağ olmaqla tağ edər\n/tektag <səbəb> - Hərkəsi mesajda 1 tağ olmaqla tağ edər\n/etag <səbəb> - Hərkəsi mesajda 5 emoji olmaqla emojilərlə tağ edər\n/rtag <səbəb> - İstifadəçiləri rənglərlə tağ edər\n/cancel - Tağ prosesini dayandırar\n❕ Bu əmrləri yalnız qrup adminləri istifadə edə bilər."
+         "value": "🆘 Kömək Menyusu\n/all <səbəb> - Hərkəsi mesajda 5 tağ olmaqla tağ edər\n/admin <səbəb> - Adminləri mesajda 1 tağ olmaqla tağ edər\n/tektag <səbəb> - Hərkəsi mesajda 1 tağ olmaqla tağ edər\n/etag <səbəb> - Hərkəsi mesajda 5 emoji olmaqla emojilərlə tağ edər\n/rtag <səbəb> - İstifadəçiləri rənglərlə tağ edər\n/cancel - Tağ prosesini dayandırar\n❕ Bu əmrləri yalnız qrup adminləri istifadə edə bilər"
       }
 
       
