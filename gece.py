@@ -47,7 +47,7 @@ async def start(event):
                       ],
                       [Button.url('Məni qrupa əlavə et🙈', f'https://t.me/Rahid_Tag_Bot?startgroup=a')],
                       [Button.url('🤖 Digər Botlarım', f'https://t.me/Rahid_44'),
-                       Button.url('🙇🏻 Sahib', f'https://t.me/Rahid_2003')]
+                       Button.url('🙇🏻 Sahibim', f'https://t.me/Rahid_2003')]
                     ),
                     link_preview=False)
 
@@ -66,7 +66,7 @@ async def handler(event):
                       ],
                       [Button.url('Məni qrupa əlavə et🙈', f'https://t.me/Rahid_Tag_Bot?startgroup=a')],
                       [Button.url('🤖 Digər Botlarım', f'https://t.me/Rahid_44'),
-                       Button.url('🙇🏻 Sahib', f'https://t.me/Rahid_2003')]
+                       Button.url('🙇🏻 Sahibim', f'https://t.me/Rahid_2003')]
                     ),
                     link_preview=False)
 
