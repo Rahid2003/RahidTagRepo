@@ -81,7 +81,7 @@ async def handler(event):
                     link_preview=False)
 
 
-@client.on(events.NewMessage(pattern="^/all ?(.*)"))
+@client.on(events.NewMessage(pattern="^/utag ?(.*)"))
 async def mentionall(event):
   global gece_tag
   if event.is_private:
